@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cin-xml-from-csv"
+version = "0.1.0"
+description = ""
+authors = ["MichaelHanksSF <michael.hanks@socialfinance.org.uk>"]
+readme = "README.md"
+packages = [{include = "cin_xml_from_csv", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.3.1"
+lxml = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
